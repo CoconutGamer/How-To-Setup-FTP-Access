@@ -10,4 +10,4 @@
 5. Then run `sudo systemctl restart sshd` So that the changes take place.
 
 > [!NOTE]
-> The Port `22` Shoud Be Open In The Firewal.
+> The Port `22` Shoud Be Open In The Firewall.
