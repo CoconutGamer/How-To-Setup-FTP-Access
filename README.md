@@ -2,6 +2,7 @@
 
 1. You should be outside of any folder / file / directory and You need Be in root user ``sudo -s``. 
 2. You need to go in a file .So run ``nano /etc/ssh/sshd_config``.
-3. Use the arrow keys to navigate on your keyboard.
-    You need to go down and find ``PermitRootLogin yes``and``PasswordAuthentication yes`` make them Yes.
-4. Then run ``sudo systemctl restart sshd`` So that the changes take place.
+3. You need to go down and find ``PermitRootLogin``and``PasswordAuthentication`` make them Yes.
+![image](https://github.com/CoconutGamer/How-To-Setup-FTP-Access/assets/154960261/7c187de7-aba0-4cb0-8f1d-ca7b5d854535)
+
+5. Then run ``sudo systemctl restart sshd`` So that the changes take place.
